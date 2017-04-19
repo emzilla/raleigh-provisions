@@ -1,0 +1,48 @@
+// Settings
+// ==================================
+// --- Type
+// ----------------------------------
+
+// Typography Settings
+// ----------------------------------
+
+// Custom Fonts
+// ----------------------------------
+// @include font-face('lato', '../fonts/lato-regular-webfont');
+
+// Base Size (must use px value)
+// ----------------------------------
+$base_line_height: 1.7;
+$base_font_size: rem(16px);
+
+
+// Headings
+// ----------------------------------
+$header_font_family: Helvetica, Arial, sans-serif;
+$header_font_weight: 300;
+$header_line_height: 1.3;
+$header_top_margin: 5px;
+$header_bottom_margin: 20px;
+$header_text_rendering: optimizeLegibility;
+$header_color: $text_color;
+
+
+// Paragraphs
+// ----------------------------------
+$paragraph_font_family: Helvetica, Arial, sans-serif;
+$paragraph_font_weight: 400;
+$paragraph_font_size: $base_font_size;
+$paragraph_line_height: $base_line_height;
+$paragraph_margin_bottom: 20px;
+$paragraph_text_rendering: optimizeLegibility;
+
+
+// Links
+// ----------------------------------
+$link_text_decoration: none;
+
+
+// Blockquotes
+// ----------------------------------
+$blockquote_padding: 10px 20px;
+$blockquote_margin: 0 0 20px;

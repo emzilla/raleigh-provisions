@@ -1,0 +1,39 @@
+// Settings
+// ==================================
+// --- Color
+// ----------------------------------
+
+// Color Settings
+// ----------------------------------
+
+// Set up color names
+// ----------------------------------
+$blue: blue;
+$black: #000;
+$gray: #ccc;
+
+
+// Brand Specific
+// ----------------------------------
+$brand_primary: $black;
+$brand_secondary: $gray;
+$brand_tertiary: $blue;
+
+$brand_accent_1: $blue;
+$brand_accent_2: $gray;
+
+
+// Global Color Settings
+// ----------------------------------
+$bg_color: $brand_primary;
+$header_bg: $brand_primary;
+$footer_bg: $brand_secondary;
+
+
+// Text and Links
+// ----------------------------------
+$text_color: $brand_secondary;
+$reverse_text_color: $brand_primary;
+$link_color: $brand_tertiary;
+$link_color_hover: darken($brand_tertiary, 15%);
+
