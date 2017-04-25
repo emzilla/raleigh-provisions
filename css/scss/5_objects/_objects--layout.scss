@@ -2,3 +2,13 @@
 ==================================
 --- Layout
 ------------------------------ */
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    background: $bg_color;
+    font-size: $base_font_size;
+    font-family: $paragraph_font_family;
+}

@@ -12,28 +12,31 @@ $blue: blue;
 $black: #000;
 $gray: #ccc;
 
+$rp_orange: #e95b3a;
+$rp_black: #333332;
+$rp_white: #f9f8f5;
+$rp_gray: #e7e2e6;
+
 
 // Brand Specific
 // ----------------------------------
-$brand_primary: $black;
-$brand_secondary: $gray;
-$brand_tertiary: $blue;
+$brand_primary: $rp_black;
+$brand_secondary: $rp_white;
+$brand_tertiary: $rp_gray;
 
-$brand_accent_1: $blue;
-$brand_accent_2: $gray;
+$brand_accent_1: $rp_orange;
+$brand_accent_2: $brand_tertiary;
 
 
 // Global Color Settings
 // ----------------------------------
-$bg_color: $brand_primary;
-$header_bg: $brand_primary;
-$footer_bg: $brand_secondary;
+$bg_color: $brand_tertiary;
 
 
 // Text and Links
 // ----------------------------------
-$text_color: $brand_secondary;
-$reverse_text_color: $brand_primary;
-$link_color: $brand_tertiary;
-$link_color_hover: darken($brand_tertiary, 15%);
+$text_color: $brand_primary;
+$reverse_text_color: $brand_secondary;
+$link_color: $brand_accent_1;
+$link_color_hover: darken($brand_accent_1, 15%);
 
