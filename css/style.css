@@ -512,6 +512,10 @@ a {
 ==================================
 --- Typography
 ------------------------------ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  font-size: 1.25rem; }
+
 /* Objects */
 /* Objects
 ==================================
@@ -521,9 +525,58 @@ html, body {
   height: 100vh; }
 
 body {
-  background: #e7e2e6;
+  -ms-flex-align: center;
+      align-items: center;
+  background: #e7e2e6 url("../img/bg.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
   font-size: rem(16px);
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.site-main {
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1;
+      flex: 1; }
+
+/* Objects
+==================================
+--- Footer
+------------------------------ */
+.site-footer {
+  -ms-flex-align: center;
+      align-items: center;
+  background: #333332;
+  color: #f9f8f5;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  width: 100%; }
+
+.site-footer a {
+  color: #f9f8f5; }
+
+/* Objects
+==================================
+--- Header
+------------------------------ */
+.site-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
 
 /* Objects
 ==================================

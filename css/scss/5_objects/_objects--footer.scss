@@ -1,0 +1,18 @@
+/* Objects
+==================================
+--- Footer
+------------------------------ */
+
+.site-footer {
+    align-items: center;
+    background: $brand_primary;
+    color: $brand_secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.site-footer a {
+    color: $brand_secondary;
+}
