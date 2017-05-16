@@ -56,6 +56,10 @@ $border_radius: 3px;					// set to 0 for none
 	$table_header_color: #fff;
 
 
+	// Box Shadow
+	// ----------------------------------
+	$box_shadow: 5px 0 20px 0 rgba(0, 0, 0, 0.2);
+
 	// Zebra Stripes
 	// ----------------------------------
 	$table_alt_row_background: tint($brand_accent_1, 90%);

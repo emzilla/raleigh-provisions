@@ -4,7 +4,7 @@
 ------------------------------ */
 
 html, body {
-    height: 100vh;
+    height: 100%;
 }
 
 body {
@@ -21,8 +21,6 @@ body {
 }
 
 .site-main {
-    display: flex;
-    flex: 1;
-    justify-content: center;
     width: 100%;
+    flex: 1;
 }

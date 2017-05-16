@@ -4,12 +4,9 @@
 ------------------------------ */
 
 .site-footer {
-    align-items: center;
     background: $brand_primary;
     color: $brand_secondary;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 1rem 0;
     width: 100%;
 }
 

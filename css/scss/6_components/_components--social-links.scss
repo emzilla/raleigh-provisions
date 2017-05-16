@@ -5,20 +5,25 @@
 
 .social-menu {
     &__item {
-        @include hide-text;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        height: 2em;
-        width: 2em;
+        margin: 1em;
+        
+        a {
+            @include hide-text;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 2em;
+            width: 2em;
+            display: block;
+        }
     }
-    &__item--fb {
+    &__item--fb a {
         background-image: url(../svg/i_facebook.svg);
     }
-    &__item--ig {
+    &__item--ig a {
        background-image: url(../svg/i_instagram.svg); 
     }
-    &__item--tw {
+    &__item--tw a {
         background-image: url(../svg/i_twitter.svg);
     }
 }

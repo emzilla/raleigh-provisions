@@ -2,42 +2,48 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title></title>
-
+	<title>Raleigh Provisions</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header id="header" class="site-header" role="banner">
-		<h1 class="visuallyhidden">Raleigh Provisions</h1>
-		<section class="site-header__logo">
-			<img src="svg/l_rp-logo.svg" alt="Raleigh Provisions Logo" class="svg-logo">	
-		</section>
+		<div class="flex-wrapper flex-wrapper--col">
+			<section class="site-header__logo">
+				<img src="svg/l_rp-logo.svg" alt="Raleigh Provisions Logo" class="svg-logo">	
+			</section>
+			<h1 class="site-header__title">Raleigh Provisions</h1>	
+		</div>
 	</header> <!-- .site-header -->
 	<main id="main" class="site-main" role="main">
-		<article class="main-content">
-			<section class="main-content__info">
-				<h2>Hours</h2>	
-				<p>Mon - Thurs <span>9-6</span></p>
-				<p>Fri - Sat <span>9-8</span></p>
-				<p>Sun <span>1-5</span></p>
+		<div class="flex-wrapper">
+			<article class="main-content">
+				<section class="main-content__info">
+					<h2>Hours</h2>	
+					<p>Mon - Thurs <span>9-6</span></p>
+					<p>Fri - Sat <span>9-8</span></p>
+					<p>Sun <span>1-5</span></p>
 
-				<h2>Contact</h2>	
-				<p>919.191.1919</p>
-				<p><a href="emailto:info@raleighprovisions.com">info@raleighprovisions.com</a></p>
-			</section> <!-- section -->	
-			<aside class="main-content__image">
-				<img src="" alt="View of counter at Raleigh Provisions">
-			</aside> <!-- section -->
-		</article>
+					<h2>Contact</h2>	
+					<p>919.191.1919</p>
+					<p><a href="emailto:info@raleighprovisions.com">info@raleighprovisions.com</a></p>
+				</section> <!-- section -->	
+				<aside class="main-content__image">
+					<img src="img/interior-front-counter.jpg" alt="View of counter at Raleigh Provisions">
+				</aside> <!-- section -->
+			</article>		
+		</div>
 	</main> <!-- .site-main -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<p class="footer__ad">123 Davie Street, Raleigh NC</p>
-		<ul role="navigation" class="social-menu">
-			<li class="social-menu__item social-menu__item--fb"><a href="#">Facebook</a></li>
-			<li class="social-menu__item social-menu__item--ig"><a href="#">Instagram</a></li>
-			<li class="social-menu__item social-menu__item--tw"><a href="#">Twitter</a></li>
-		</ul>
+		<div class="flex-wrapper flex-wrapper--col">
+			<p class="footer__ad">123 Davie Street, Raleigh NC</p>
+			<ul role="navigation" class="social-menu flex-wrapper">
+				<li class="social-menu__item social-menu__item--fb"><a href="https://www.facebook.com/Raleigh-Provisions-399680407050222/" target="_blank">Facebook</a></li>
+				<li class="social-menu__item social-menu__item--ig"><a href="https://www.instagram.com/raleighprovisions/" target="_blank">Instagram</a></li>
+				<li class="social-menu__item social-menu__item--tw"><a href="https://twitter.com/ralprovisions" target="_blank">Twitter</a></li>
+			</ul>	
+		</div>
 	</footer><!-- .site-footer -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script src="js/global.js"></script>

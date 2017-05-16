@@ -1,0 +1,40 @@
+/* Components
+==================================
+--- Main Content
+------------------------------ */
+
+.main-content {
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+
+    &__info {
+        order: 2;
+        padding: 2rem;
+        line-height: $base_line_height;
+    }
+
+    &__image {
+        flex: 1;
+        position: relative;
+
+        img {
+            max-width: 400px;
+            box-shadow: $box_shadow;
+            position: relative;
+            z-index: 2;
+        }
+
+        &:before {
+            content: '';
+            background: $brand_accent_1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: rotate(4deg);
+            height: 100%;
+            width: 100%;
+            z-index: 1;
+        }
+    }
+}
