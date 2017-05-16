@@ -37,6 +37,7 @@
 // ------------------------------ 
 	@import "4_elements/elements--links";
 	@import "4_elements/elements--lists";
+	@import "4_elements/elements--images";
 	@import "4_elements/elements--page";
 	@import "4_elements/elements--quotes";
 	@import "4_elements/elements--typography";
@@ -60,6 +61,7 @@
 // --- Usually have >1 selector
 // ------------------------------ 
 	@import "6_components/components--buttons";
+	@import "6_components/components--social-links";	
 	@import "6_components/components--page-titles";
 
 /* Vendors */

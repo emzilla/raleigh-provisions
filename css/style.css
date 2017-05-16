@@ -502,6 +502,14 @@ a {
 ------------------------------ */
 /* Elements
 ==================================
+--- Images
+------------------------------ */
+.svg-logo {
+  height: 100%;
+  width: 100%; }
+
+/* Elements
+==================================
 --- Page
 ------------------------------ */
 /* Elements
@@ -541,12 +549,13 @@ body {
       justify-content: center; }
 
 .site-main {
-  -ms-flex-align: center;
-      align-items: center;
   display: -ms-flexbox;
   display: flex;
   -ms-flex: 1;
-      flex: 1; }
+      flex: 1;
+  -ms-flex-pack: center;
+      justify-content: center;
+  width: 100%; }
 
 /* Objects
 ==================================
@@ -575,8 +584,14 @@ body {
 .site-header {
   display: -ms-flexbox;
   display: flex;
+  font-size: 3rem;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  width: 100%; }
+  .site-header__logo {
+    height: 8em;
+    width: 8em;
+    padding: 2rem 0; }
 
 /* Objects
 ==================================
@@ -591,6 +606,29 @@ body {
 ==================================
 --- Buttons
 ------------------------------ */
+/* Components
+==================================
+--- Social Links
+------------------------------ */
+.social-menu__item {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 2em;
+  width: 2em; }
+
+.social-menu__item--fb {
+  background-image: url(../svg/i_facebook.svg); }
+
+.social-menu__item--ig {
+  background-image: url(../svg/i_instagram.svg); }
+
+.social-menu__item--tw {
+  background-image: url(../svg/i_twitter.svg); }
+
 /* Components
 ==================================
 --- Page Titles
