@@ -13,8 +13,14 @@
             background-repeat: no-repeat;
             background-size: 100%;
             height: 2em;
+            transition: all $base_transition;
             width: 2em;
             display: block;
+        }
+
+        a:hover {
+            transform: scale(1.1);
+            box-shadow: $box-shadow;
         }
     }
     &__item--fb a {

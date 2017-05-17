@@ -5,6 +5,8 @@
 
 a {
     color: $link_color;
+    transition: color $base_transition;
+    text-decoration: none;
 
     &:hover {
         color: $link_color_hover;

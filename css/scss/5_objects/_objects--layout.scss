@@ -8,16 +8,23 @@ html, body {
 }
 
 body {
-    align-items: center;
-    background: $bg_color url('../img/bg.jpg') no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
+    background: $bg_color;
     font-size: $base_font_size;
     font-family: $paragraph_font_family;
     line-height: 1.4;
-    justify-content: center;
+
+    @include breakpoint('small') {
+        background: $bg_color url('../img/bg.jpg') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    @include breakpoint('medium') {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .site-main {
