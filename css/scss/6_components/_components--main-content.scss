@@ -8,8 +8,8 @@
     
     @include breakpoint('medium') {
         display: flex;
-        max-width: 750px;
-        justify-content: space-around;       
+        justify-content: space-around;  
+        max-width: 750px;    
     }
 
     &__info {
@@ -47,6 +47,9 @@
 
         .responsive-image {
             display: block;
+            margin: 0 auto 1rem;
+            max-width: 80%;
+
              @include breakpoint('medium') {
                 display: none;
              }
@@ -56,11 +59,11 @@
             @include breakpoint('medium') {
                 content: '';
                 background: $brand_accent_1;
+                height: 100%;
+                left: 0;
                 position: absolute;
                 top: 0;
-                left: 0;
-                transform: rotate(4deg);
-                height: 100%;
+                transform: rotate(4deg); 
                 width: 100%;
                 z-index: 1;
             }

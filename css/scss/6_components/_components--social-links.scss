@@ -12,15 +12,15 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: 100%;
+            display: block;
             height: 2em;
             transition: all $base_transition;
             width: 2em;
-            display: block;
         }
 
         a:hover {
-            transform: scale(1.1);
             box-shadow: $box-shadow;
+            transform: scale(1.1);
         }
     }
     &__item--fb a {

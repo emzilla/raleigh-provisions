@@ -28,10 +28,8 @@ gulp.task('styles', function(){
     }}))
     .pipe(sass())
     .pipe(autoprefixer('last 2 versions'))
+    .pipe(minifycss())
     .pipe(gulp.dest('css'))
-    .pipe(rename({suffix: '.min'}))
-    // .pipe(minifycss())
-    // .pipe(gulp.dest('/'))
     // .pipe(browserSync.reload({stream:true}))
 });
 
@@ -43,9 +41,8 @@ gulp.task('scripts', function(){
         this.emit('end');
     }}))
     .pipe(concat('global.js'))
+    .pipe(uglify())
     .pipe(gulp.dest('js'))
-    // .pipe(rename({suffix: '.min'}))
-    // .pipe(uglify())
     // .pipe(gulp.dest('js/'))
     // .pipe(browserSync.reload({stream:true}))
 });
