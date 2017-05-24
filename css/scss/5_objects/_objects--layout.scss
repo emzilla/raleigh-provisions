@@ -23,11 +23,11 @@ body {
         align-items: center;
         display: flex;
         flex-direction: column;
-        justify-content: center;
     }
 }
 
 .site-main {
-    width: 100%;
     flex: 1;
+    padding: 1rem 0 3rem;
+    width: 100%;
 }
