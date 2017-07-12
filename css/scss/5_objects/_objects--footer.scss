@@ -8,6 +8,10 @@
     color: $brand_secondary;
     padding: 0.5rem 0;
     width: 100%;
+
+    .flex-wrapper {
+      padding-bottom: 0;
+    }
 }
 
 .site-footer a {

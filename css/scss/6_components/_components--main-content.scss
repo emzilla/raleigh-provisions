@@ -8,8 +8,8 @@
     
     @include breakpoint('medium') {
         display: flex;
-        justify-content: space-around;  
-        max-width: 750px;    
+        display: -webkit-flex;
+        justify-content: space-around;    
     }
 
     &__info {
@@ -25,7 +25,9 @@
     }
 
     &__image {
-        flex: 1;
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
         position: relative;
 
         #slider {
@@ -35,6 +37,9 @@
 
             @include breakpoint('medium') {
                 width: 450px;
+            } 
+            @include breakpoint('large') {
+                width: 700px;
             } 
         }
 
@@ -64,8 +69,12 @@
                 position: absolute;
                 top: 0;
                 transform: rotate(4deg); 
-                width: 100%;
+                width: 450px;
                 z-index: 1;
+            }
+
+            @include breakpoint('large') {
+                width: 700px;    
             }
         }
     }

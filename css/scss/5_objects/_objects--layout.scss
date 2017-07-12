@@ -2,8 +2,7 @@
 ==================================
 --- Layout
 ------------------------------ */
-
-html, body {
+html {
     height: 100%;
 }
 
@@ -11,6 +10,7 @@ body {
     background: $bg_color;
     font-size: $base_font_size;
     font-family: $paragraph_font_family;
+    height: 100%;
     line-height: 1.4;
 
     @include breakpoint('small') {
@@ -22,12 +22,17 @@ body {
     @include breakpoint('medium') {
         align-items: center;
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
+        justify-content: space-between;
     }
 }
 
 .site-main {
-    flex: 1;
-    padding: 1rem 0 3rem;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    padding: 1rem 0;
     width: 100%;
 }

@@ -6,9 +6,27 @@
 .flex-wrapper {
     align-items: center;
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
+    padding: 0 1rem 1rem;
+
+    @include breakpoint('medium') {
+      padding: 0 1rem 3rem;
+    }
+
+    > * {
+
+      @include breakpoint('medium') {
+        max-width: 750px;  
+      }
+
+      @include breakpoint('medium') {
+        max-width: 1000px;  
+      }
+    }
 }
 
 .flex-wrapper--col {
     flex-direction: column;
+    -webkit-flex-direction: column;
 }
