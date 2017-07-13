@@ -2,15 +2,18 @@
 ==================================
 --- Layout
 ------------------------------ */
-html {
-    height: 100%;
+html,
+body {
+    height: 100vh;
+    @media screen and (max-height: 1200px){
+        height: auto;
+    }
 }
 
 body {
     background: $bg_color;
     font-size: $base_font_size;
     font-family: $paragraph_font_family;
-    height: 100%;
     line-height: 1.4;
 
     @include breakpoint('small') {
