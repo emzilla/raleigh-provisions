@@ -34,6 +34,7 @@ body {
 .site-main {
     display: flex;
     display: -webkit-flex;
+    flex: 1 0 auto;
     flex-direction: column;
     -webkit-flex-direction: column;
     padding: 1rem 0;

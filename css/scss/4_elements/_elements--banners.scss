@@ -1,0 +1,25 @@
+/* Elements
+==================================
+--- Banners
+------------------------------ */
+
+.banner {
+  background: $rp_orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  font-size: 20px;
+
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
