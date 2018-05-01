@@ -14,6 +14,10 @@
   color: #fff;
   font-weight: normal;
   font-size: 20px;
+  
+  @include breakpoint('small') {
+    font-size: 24px;
+  }
 
   a,
   a:hover,
